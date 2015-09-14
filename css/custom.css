@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07.05.2014., 15:56:28
+    Author     : Prima
+*/
+
+.navbar-default {
+    background-color: #66aaff;
+    border-color: #1a80ff;
+}
+
+.navbar-default .navbar-brand {
+    color: #eef4fd;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #40689f;
+}
+
+.navbar-default .navbar-text {
+    color: #eef4fd;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #eef4fd;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #40689f;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #40689f;
+    background-color: #1a80ff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #40689f;
+    background-color: #1a80ff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #1a80ff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #1a80ff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #eef4fd;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #eef4fd;
+}
+
+.navbar-default .navbar-link {
+    color: #eef4fd;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #40689f;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #eef4fd;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #40689f;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #40689f;
+        background-color: #1a80ff;
+    }
+}
+
+.forma_okvir {
+    position: relative;
+    padding: 45px 15px 15px;
+    margin: 0 -15px 15px;
+    background-color: #fafafa;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .05);
+    border-color: #e5e5e5 #eee #eee;
+    border-style: solid;
+    border-width: 1px 0
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: rgba(240, 182, 35, 0.62);
+}
+
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+.footer {
+    position: relative;
+    margin-top: -75px;
+    height: 50px;
+    clear: both;
+    padding-top: 20px;
+}
